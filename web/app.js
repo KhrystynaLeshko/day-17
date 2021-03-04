@@ -42,7 +42,11 @@ const laura = {
   username: "laura",
   email: "aldo@superimportantaccount.gov",
   password: "askfjghfdsiugyfdsiugtysifu ghdsiugyfdkjghfdskugyfdsukghfdskh",
-  interactions: ["learn", "be in the netherlands"],
+  interactions: [
+    "learn",
+    "be in the netherlands",
+    { question: "fromKrys", when: { longTime: true } },
+  ],
   socialSecurity: "123123-854324",
   age: 24,
   profilePic: "https://superimportanntbutnotillegaltohavepic.com",
@@ -102,3 +106,29 @@ function getOfficeData() {
 }
 
 getOfficeData().then((data) => {});
+
+// const laura = {
+//   username: "laura",
+//   email: "aldo@superimportantaccount.gov",
+//   password: "askfjghfdsiugyfdsiugtysifu ghdsiugyfdkjghfdskugyfdsukghfdskh",
+//    interactions: [
+//   "learn",
+//   "be in the netherlands",
+//   { question: "fromKrys", when: { longTime: true } },
+// ],
+// const {interactions: interactionsFromAldo} = aldo
+// const {
+//   interactions: [
+//     ,
+//     dutchThing,
+//     {
+//       question,
+//       when: { longTime },
+//     },
+//   ],
+// } = laura;
+const { likesFluffy = true } = laura;
+console.log("likesFluffy:", likesFluffy);
+// const  = interactions;
+// console.log("dutchThing:", dutchThing);
+// const {interactions} = laura
