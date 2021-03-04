@@ -1,0 +1,1 @@
+console.log("WE SAY GOOD BYE TO FRONTEND FOR A BIT");
