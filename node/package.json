@@ -1,0 +1,17 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "is-even": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "hugo": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
